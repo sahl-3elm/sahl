@@ -1,0 +1,10 @@
+.shaheen-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.shaheen-card:hover {
+  transform: translateY(-10px); /* Moves the card upwards */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow effect on hover */
+}
+
+
