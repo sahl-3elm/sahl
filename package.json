@@ -1,0 +1,64 @@
+{
+  "homepage": "https://sahl-3elm.github.io/sahl",
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "assert": "^2.1.0",
+    "axios": "^1.7.9",
+    "cra-template": "1.2.0",
+    "customize-cra": "^1.0.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.0.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "web-vitals": "^4.2.4"
+  },
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
+    "https-browserify": "^1.0.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
