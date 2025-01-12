@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sahl/static/css/main.33274f71.css",
+    "main.js": "/sahl/static/js/main.a36dd820.js",
+    "static/js/462.3f2f48d3.chunk.js": "/sahl/static/js/462.3f2f48d3.chunk.js",
+    "index.html": "/sahl/index.html",
+    "main.33274f71.css.map": "/sahl/static/css/main.33274f71.css.map",
+    "main.a36dd820.js.map": "/sahl/static/js/main.a36dd820.js.map",
+    "462.3f2f48d3.chunk.js.map": "/sahl/static/js/462.3f2f48d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33274f71.css",
+    "static/js/main.a36dd820.js"
+  ]
+}
